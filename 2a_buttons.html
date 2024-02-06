@@ -1,228 +1,37 @@
-<button class="uber-button">Request now</button>
-<button class="amazon-button">Add to Cart</button>
-<button class="github-button">Sign up</button>
-<br><br>
-<button class="bootstrap1-button">Get Started</button>
-<button class="bootstrap2-button">Download</button>
-<br><br>
-<button class="linkedin1-button">Apply on company website</button>
-<button class="linkedin2-button">Save</button>
-<br><br>
-<hr>
-<br><button class="back-button">Back</button>
-<a href="http://google.com">1</a>
-<a href="http://google.com">2</a>
-<a href="http://google.com">3</a>
-<a href="http://google.com">4</a>
-<a href="http://google.com">5</a>
-<button class="next-button">Next</button>
-<br><br>
-<hr><br>
-<button class="stretch-button">Stretch</button><br><br>
-<button class="shadow-button">Shadow</button><br><br>
-<button class="numbers">One</button>
-<button class="numbers">Two</button>
-<button class="numbers">Three</button>
 
-<style>
-    .uber-button {
-        background-color: black;
-        color: white;
-        height: 40px;
-        width: 120px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-        transition: opacity 0.25s;
-    }
-
-    .uber-button:hover {
-        opacity: 0.75;
-    }
-
-    .amazon-button {
-        background-color: #ebd50c;
-        font-size: 16px;
-        font-weight: 600;
-        border: none;
-        height: 40px;
-        width: 150px;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: background-color 0.25s;
-    }
-
-    .amazon-button:hover {
-        background-color: #d8c516;
-    }
-
-    .github-button {
-        background-color: #50b820;
-        color: white;
-        border: none;
-        height: 40px;
-        width: 100px;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: bold;
-        transition: box-shadow 0.25s;
-    }
-
-    .github-button:hover {
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    }
-
-    .bootstrap1-button {
-        background-color: rgb(121, 82, 179);
-        color: white;
-        height: 40px;
-        width: 130px;
-        font-weight: 900;
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 4px;
-        border: none;
-        transition: background-color 0.25s;
-    }
-
-    .bootstrap1-button:hover {
-        background-color: rgb(104, 77, 146);
-    }
-
-    .bootstrap2-button {
-        border: 1px solid #686868;
-        color: #686868;
-        font-size: 16px;
-        font-weight: 900;
-        height: 40px;
-        width: 130px;
-        border-radius: 4px;
-        cursor: pointer;
-        margin-left: 10px;
-        transition: background-color 0.25s, color 0.25s;
-    }
-
-    .bootstrap2-button:hover {
-        background-color: grey;
-        color: white;
-    }
-
-    .linkedin1-button {
-        background-color: rgb(10, 102, 194);
-        color: white;
-        height: 40px;
-        width: 250px;
-        font-size: 16px;
-        font-weight: bold;
-        border: none;
-        border-radius: 20px;
-        margin-right: 10px;
-        cursor: pointer;
-        transition: background-color 0.25s;
-    }
-
-    .linkedin1-button:hover {
-        background-color: blue;
-    }
-
-    .linkedin2-button {
-        border: 1px solid;
-        background-color: white;
-        color: rgb(10, 102, 194);
-        border-color: rgb(10, 102, 194);
-        height: 40px;
-        width: 80px;
-        font-size: 16px;
-        font-weight: bolder;
-        border-radius: 20px;
-        cursor: pointer;
-        margin-left: 6px;
-        transition: background-color 0.25s, border-width 0.2s;
-    }
-
-    .linkedin2-button:hover {
-        border-width: 2px;
-        background-color: rgb(232, 235, 238);
-    }
-
-    .back-button {
-        margin-right: 6px;
-        font-size: 16px;
-        padding: 8px;
-    }
-
-    .next-button {
-        margin-left: 6px;
-        font-size: 16px;
-        padding: 8px;
-    }
-
-    a {
-        font-size: 18px;
-        margin-left: 6px;
-        margin-right: 6px;
-    }
-
-    .stretch-button {
-        background-color: rgb(0, 116, 0);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: 500;
-        margin-left: 10px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 12px;
-        padding-right: 12px;
-        cursor: pointer;
-        transition: padding 0.8s;
-    }
-
-    .stretch-button:hover {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .shadow-button {
-        background-color: rgb(0, 116, 0);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: 500;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 12px;
-        padding-right: 12px;
-        cursor: pointer;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
-    }
-
-    .shadow-button:active {
-        margin-top: 3px;
-        margin-left: 3px;
-        box-shadow: none;
-    }
-    .numbers {
-        background-color: rgb(0, 116, 0);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: 500;
-        margin-left: 12px;
-        margin-right: 12px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        cursor: pointer;
-        transition: padding 0.2s, margin 0.2s;
-    }
-
-    .numbers:hover {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="/styles/2a_buttons.css">
+</head>
+<body>
+    <button class="uber-button">Request now</button>
+    <button class="amazon-button">Add to Cart</button>
+    <button class="github-button">Sign up</button>
+    <br><br>
+    <button class="bootstrap1-button">Get Started</button>
+    <button class="bootstrap2-button">Download</button>
+    <br><br>
+    <button class="linkedin1-button">Apply on company website</button>
+    <button class="linkedin2-button">Save</button>
+    <br><br>
+    <hr>
+    <br><button class="back-button">Back</button>
+    <a href="http://google.com">1</a>
+    <a href="http://google.com">2</a>
+    <a href="http://google.com">3</a>
+    <a href="http://google.com">4</a>
+    <a href="http://google.com">5</a>
+    <button class="next-button">Next</button>
+    <br><br>
+    <hr><br>
+    <button class="stretch-button">Stretch</button><br><br>
+    <button class="shadow-button">Shadow</button><br><br>
+    <button class="numbers">One</button>
+    <button class="numbers">Two</button>
+    <button class="numbers">Three</button>
+</body>
+</html>

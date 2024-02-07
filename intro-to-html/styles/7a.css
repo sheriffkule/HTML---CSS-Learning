@@ -1,0 +1,101 @@
+.cat1 {
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cat2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cat3 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 150px;
+}
+
+.input1 {
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    height: 26px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.input2 {
+    font-size: 16px;
+    height: 26px;
+    width: 350px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    box-shadow: 0, 1px, 10px, rgba(0, 0, 0, 0.5);
+}
+.label {
+    font-family: Arial;
+    color: #5c5c5c;
+    margin-bottom: 6px;
+    margin-top: 0px;
+}
+.input3 {
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid #646464;
+    border-radius: 5px;
+}
+.p1 {
+    color: #414141;
+    font-size: 13px;
+}
+.button1 {
+    background-color: #15728f;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    border: none;
+    border-radius: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.cat4 {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 150px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.input3 {
+    font-size: 16px;
+    vertical-align: middle;
+    border: none;
+    width: 300px;
+    color: #414141;
+}
+.button2 {
+    background-color: #15728f;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}

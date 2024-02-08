@@ -25,23 +25,38 @@ hr {
 }
 
 .logo {
-    display: block;
     width: 300px;
-    margin-left: 150px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .google-search {
     font-size: 16px;
-    width: 90%;
+    width: 500px;
     margin-left: 10px;
+    margin-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
     border: none;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+div {
+    text-align: center;
+}
+
+.button4,
+.button5 {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .input1,
 .input2 {

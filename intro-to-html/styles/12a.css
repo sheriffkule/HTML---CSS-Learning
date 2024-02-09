@@ -1,0 +1,203 @@
+html {
+    background-color: darkolivegreen;
+}
+
+hr {
+    border-color: darkblue;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    background-color: darkgoldenrod;
+    width: 200px;
+}
+
+.div3 {
+    background-color: firebrick;
+    width: 75px;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div5 {
+    background-color: darkgoldenrod;
+    width: 50px;
+}
+
+.div6 {
+    background-color: firebrick;
+    flex: 1;
+}
+
+.div7 {
+    background-color: darkgoldenrod;
+    width: 75px;
+}
+
+.div8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div9 {
+    background-color: darkgoldenrod;
+    width: 50px;
+}
+
+.div10 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border: 2px solid #922c2c;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div11 {
+    background-color: darkgoldenrod;
+    width: 55px;
+}
+
+.div12 {
+    border: 1px solid grey;
+    border-radius: 6px;
+    width: 300px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: Arial;
+    margin: 8px;
+}
+
+.button1 {
+    background-color: #3b56b1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial;
+}
+
+.div14 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img1 {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 14px;
+}
+
+.div15 {
+    width: 200px;
+}
+
+.p1 {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.p2 {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.p3 {
+    color: #333333;
+    font-size: 14px;
+}
+
+.button2 {
+    background-color: #3b56b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.div16 {
+    font-family: Arial;
+    background-color: rgb(120, 39, 196);
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.div17 {
+    color: white;
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+.search {
+    flex: 1;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    max-width: 400px;
+    padding-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.button3 {
+    background-color: rgb(120, 39, 196);
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-right: 12px;
+}

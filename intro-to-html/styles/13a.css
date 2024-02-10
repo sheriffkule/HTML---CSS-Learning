@@ -1,0 +1,189 @@
+html {
+    background-color: #006e6e;
+}
+
+hr {
+    border-color: lightsteelblue;
+}
+
+div {
+    font-family: Arial;
+}
+
+.div1 {
+    display: flex;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    width: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    background-color: black;
+    color: white;
+}
+
+.div3 {
+    width: 200px;
+    background-color: lightgreen;
+}
+
+.div4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div5 {
+    background-color: lightcoral;
+    width: 100px;
+}
+
+.div6 {
+    background-color: lightgreen;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div7 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.div8 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+.div9 {
+width: 400px;
+border: 1px solid grey;
+display: flex;
+flex-direction: column;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 16px;
+box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 4px;
+}
+
+.div10 {
+    color: lightgray;
+    margin-bottom: 14px;
+}
+
+.div11 {
+    display: flex;
+    align-items: center;
+}
+
+.div12 {
+    margin-right: 10px;
+    
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: none;
+    border-radius: 25px;
+}
+
+.div13 {
+    flex:1;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.div14 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.div15 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div16 {
+    color: rgb(163, 163, 163);
+}
+
+.div17 {
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.div18 {
+    color: #242424;
+}
+
+.div19 {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div20 {
+    margin-right: 12px;
+}
+
+.div21 {
+    flex: 1;
+}
+
+.div23 {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    line-height: 20px;
+}
+
+.div24 {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.div25 {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin-right: 10px;
+}
+
+.div26 {
+    flex: 1;
+}
+.div27 {
+    color: rgb(34, 34, 34);
+}
+
+.div28 {
+    margin-top: 6px;
+    line-height: 22px;
+}

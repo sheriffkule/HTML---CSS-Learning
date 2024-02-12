@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color: #188688">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CSS Position</title>
-    </head>
-    <body style="height: 3000px; padding-top: 50px; padding-left: 74px">
-        <div
-            style="
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+</head>
+
+<body style="height: 3000px; padding-top: 50px; padding-left: 74px">
+    <div style="
                 background-color: black;
                 color: white;
                 position: fixed;
-                top: 10px;
-                left: 10px;
+                top: 0px;
+                left: 0px;
                 right: 10px;
                 height: 40px;
             ">
-            header
-        </div>
-        <div
-            style="
+        header
+    </div>
+    <div style="
                 background-color: green;
                 color: white;
                 position: fixed;
@@ -28,22 +28,46 @@
                 top: 50px;
                 width: 70px;
             ">
-            Sidebar
+        Sidebar
+        <div style="
+                    position: absolute;
+                    background-color: darkblue;
+                    color: white;
+                    right: 0px;
+                    top: 0px;
+                    ">
+            X
         </div>
-        <div
-            class="div1"
-            style="
+    </div>
+    <div style="
+        position: absolute;
+        background-color: darkblue;
+        color: white;
+        right: 10px;
+        top: 50px;
+        ">
+        absolute
+    </div>
+    <div class="div1" style="
                 background-color: lightsalmon;
                 height: 200px;
                 width: 200px;
                 position: static;
             ">
-            div1
+        div1
+    </div>
+    <div class="div2" style="background-color: lightskyblue; height: 200px; width: 200px; position: relative;">
+        div2
+        <div style="
+                    position: absolute;
+                    background-color: black;
+                    color: white;
+                    bottom: 10px;
+                    right: 10px;
+                    ">
+            5:00
         </div>
-        <div
-            class="div2"
-            style="background-color: lightskyblue; height: 200px; width: 200px">
-            div2
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
